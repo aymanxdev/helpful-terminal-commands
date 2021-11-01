@@ -1,4 +1,4 @@
-# helpful-terminal-commands
+# Helpful Terminal Commands ⌨️ 
 
 Homebrew
 
