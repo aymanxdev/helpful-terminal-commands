@@ -21,3 +21,9 @@ To create a short cut for adding and commiting changes, use this `git config --g
 `git revert` allows reverting to changes to be undone if passed the commit hash ID. It won't delete the commit but rather undo the changes. 
 
 `git revert HEAD` undo the most recent commit
+
+`git reflog` to log all the commits in a list
+
+`git log --graph --decorate --oneline` create a better visual representation for the commits logs. 
+
+`git log -S "part of the code ` it searches for changes in the repo, in case wanna find which commit created it. 
