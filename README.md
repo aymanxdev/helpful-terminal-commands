@@ -14,3 +14,4 @@ brew list --formula | xargs -n1 -P8 -I {} \
 
 `git commit -a -m` to commit message after git `git add` however `-a ` doesn't track new files. 
 
+`git add .` adds everything in the current directory. If `-A` added i.e `git add -A` will add everything in the repo and not only that directory 
