@@ -17,3 +17,7 @@ brew list --formula | xargs -n1 -P8 -I {} \
 `git add .` adds everything in the current directory. If `-A` added i.e `git add -A` will add everything in the repo and not only that directory 
 
 To create a short cut for adding and commiting changes, use this `git config --global alias.ac '!git add -A && git commit -m'` this will create an easy and short way to commit changes with only one command `git ac"update to commit"
+
+`git revert` allows reverting to changes to be undone if passed the commit hash ID. It won't delete the commit but rather undo the changes. 
+
+`git revert HEAD` undo the most recent commit
