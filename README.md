@@ -36,7 +36,9 @@ To create a short cut for adding and commiting changes, use this `git config --g
 
 `git branch -vv | awk '/: gone ]/ {print $1} `
 
-`git bisect start` start a binary search 
-`git bisect bad` assumes the recent commit is bad 
-`git bisect good 'pass commit hash id'` this is the good commit that will compare both bad and good to search for the bug
+`git bisect start` start a binary search  
+`git bisect bad` assumes the recent commit is bad.  
+`git bisect good 'pass commit hash id'` this is the good commit that will compare both bad and good to search for the bug.  
+
+
 
