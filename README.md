@@ -27,3 +27,9 @@ To create a short cut for adding and commiting changes, use this `git config --g
 `git log --graph --decorate --oneline` create a better visual representation for the commits logs. 
 
 `git log -S "part of the code ` it searches for changes in the repo, in case wanna find which commit created it. 
+
+`git stash` put all the new changes in separate place and brings it back with this command `git stash pop` *only locally*
+
+`git branch -vv` list all the branches 
+
+`git remote update --prune` updates git with the lates branches and delete the ones that are no longer exist
