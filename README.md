@@ -20,14 +20,10 @@ brew list --formula | xargs -n1 -P8 -I {} \
 |`git revert HEAD` |undo the most recent commit|
 |`git reflog`| to log all the commits in a list|
 |`git log --graph --decorate --oneline`| create a better visual representation for the commits logs.| 
-
-`git log -S "part of the code ` it searches for changes in the repo, in case wanna find which commit created it. 
-
-`git stash` put all the new changes in separate place and brings it back with this command `git stash pop` *only locally*
-
-`git branch -vv` list all the branches 
-
-`git remote update --prune` updates git with the lates branches and delete the ones that are no longer exist
+|`git log -S "part of the code `| it searches for changes in the repo, in case wanna find which commit created it.| 
+|`git stash`| put all the new changes in separate place and brings it back with this command `git stash pop` *only locally*|
+|`git branch -vv`| list all the branches |
+|`git remote update --prune`| updates git with the lates branches and delete the ones that are no longer exist
 
 `git branch -vv | awk '/: gone ]/ {print $1} `
 
