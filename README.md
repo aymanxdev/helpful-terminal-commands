@@ -24,7 +24,7 @@ brew list --formula | xargs -n1 -P8 -I {} \
 |`git stash`| put all the new changes in separate place and brings it back with this command `git stash pop` *only locally*|
 |`git branch -vv`| list all the branches |
 |`git remote update --prune`| updates git with the lates branches and delete the ones that are no longer exist
-|`git branch -vv | awk '/: gone ]/ {print $1} `|print out branches that are delete|
+|`git branch -vv awk /: gone ]/ {print $1} `|print out branches that are delete| .|
 |`git bisect start`| start a binary search|  
 |`git bisect bad`| assumes the recent commit is bad.| 
 |`git bisect good`| pass commit `hash id` this is the good commit that will compare both bad and good to search for the bug.|  
