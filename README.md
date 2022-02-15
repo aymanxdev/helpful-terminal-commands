@@ -28,6 +28,5 @@ brew list --formula | xargs -n1 -P8 -I {} \
 |`git bisect start`| start a binary search|  
 |`git bisect bad`| assumes the recent commit is bad.| 
 |`git bisect good`| pass commit `hash id` this is the good commit that will compare both bad and good to search for the bug.|  
-
-To create a short cut for adding and commiting changes, use this `git config --global alias.ac '!git add -A && git commit -m'` this will create an easy and short way to commit changes with only one command `git ac"update to commit"
+|`git config --global alias.ac '!git add -A && git commit -m'`|To create a short cut for adding and commiting changes, use this  this will create an easy and short way to commit changes with only one command `git ac"update to commit"`|
 
