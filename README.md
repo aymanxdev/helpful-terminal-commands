@@ -30,3 +30,5 @@ brew list --formula | xargs -n1 -P8 -I {} \
 |`git bisect good`| pass commit `hash id` this is the good commit that will compare both bad and good to search for the bug.|  
 |`git config --global alias.ac '!git add -A && git commit -m'`|To create a short cut for adding and commiting changes, use this  this will create an easy and short way to commit changes with only one command `git ac"update to commit"`|
 
+## SSH Commands
+`pbcopy < ~/.ssh/"enter here id_rsa file name".pub` copies the SSH public key
