@@ -1,4 +1,4 @@
-# Helpful Terminal Commands ⌨️ 
+# Useful Terminal Commands ⌨️ 
 
 Homebrew
 
@@ -32,3 +32,4 @@ brew list --formula | xargs -n1 -P8 -I {} \
 
 ## SSH Commands
 `pbcopy < ~/.ssh/"enter here id_rsa file name".pub` copies the SSH public key
+
