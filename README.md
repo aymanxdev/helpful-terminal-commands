@@ -31,6 +31,6 @@ brew list --formula | xargs -n1 -P8 -I {} \
 |`git config --global alias.ac '!git add -A && git commit -m'`|To create a short cut for adding and commiting changes, use this  this will create an easy and short way to commit changes with only one command `git ac"update to commit"`|
 
 ## SSH Commands
-`pbcopy < ~/.ssh/"enter here id_rsa file name".pub` copies the SSH public key
+`pbcopy < ~/.ssh/"enter here id_rsa file name".pub` copies the SSH public key. 
 more about how SSH works internally, watch this excellent [video](https://youtu.be/ORcvSkgdA58)
 
