@@ -29,6 +29,7 @@ brew list --formula | xargs -n1 -P8 -I {} \
 |`git bisect bad`| assumes the recent commit is bad.| 
 |`git bisect good`| pass commit `hash id` this is the good commit that will compare both bad and good to search for the bug.|  
 |`git config --global alias.ac '!git add -A && git commit -m'`|To create a short cut for adding and commiting changes, use this  this will create an easy and short way to commit changes with only one command `git ac"update to commit"`|
+|`git rebase master`| this is a powerful git command that takes commits from the current branch and put them on the top of the master one|
 
 ## SSH Commands
 `SSH-keygen`   
