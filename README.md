@@ -32,6 +32,7 @@ brew list --formula | xargs -n1 -P8 -I {} \
 |`git rebase master`| this git command takes commits from the current branch and put them on the top of the master one|
 |`git rebase --abort`| this git command aborts the rebasing process|
 |`git rebase --continue`| this git command continues the rebasing process|
+|`git pull --rebase origin develop`| rebase from origin directly|
 
 ## SSH Setup 
 `SSH-keygen`   
