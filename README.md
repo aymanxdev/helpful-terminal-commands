@@ -33,7 +33,7 @@ brew list --formula | xargs -n1 -P8 -I {} \
 |`git rebase --abort`| this git command aborts the rebasing process|
 |`git rebase --continue`| this git command continues the rebasing process|
 |`git pull --rebase origin develop`| rebase from origin directly|
-|`git checkout.`||
+|`git checkout.`|undo / reset all the changes made |
 
 ## SSH Setup 
 `SSH-keygen`   
